@@ -35,7 +35,7 @@ const getBooks = async (req, res) => {
 
     } catch (error) {
 
-        res.status(500).json({
+        res.status(404).json({
             message: "Books nahi mil payi",
             error: error.message
         });

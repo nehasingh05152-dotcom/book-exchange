@@ -62,11 +62,9 @@ function displayBooks() {
                     <span class="status">
                         Available
                     </span>
-                </td>
-            </tr>
-        `;
-
-    });
+                    </td>
+                    </tr>`;
+                 });
 
 }
 function showBooksInSelect() {
